@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    /*height: 100%;*/
+    text-align: center;
+    background: url(a.jpg) center center/cover;
+    /* background-image: linear-gradient(to bottom right,red,orange,yellow,green,blue,indigo,violet); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 100%;
+    position: sticky;
+    /* height: 100%; */
+}
+
+.form1{
+    background-image: linear-gradient(to bottom left, rgb(228, 40, 228), rgb(111, 235, 111));
+    border-style: dotted;
+    border-color: cadetblue;
+    border-width: 2px;
+    border-radius: 30px;
+    height: 50%;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 75vh; */
+    /* margin-bottom: calc(100vh - 250px); */
+    /* position: relative; */
+    /*margin-top: ;*/
+    padding: 10px;
+}
+
+.table{
+    position: center;
+}
+
+#logo-font{
+    font-size: 69px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #4bc3ff;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+.modal-dialog{
+    border-radius: 5px;
+    border-width: 5px;
+    /* border-style: solid; */
+    /* border-color: lightseagreen; */
+    /* -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat; */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(147,21,185)), color-stop(0.67, rgb(0,255,255)));
+    background-image: -moz-linear-gradient(center bottom, rgb(147, 21, 185) 33%, rgb(0,255,255) 67% );
+    background-image: 3px;
+    padding: 5px;
+    /* border-image: linear-gradient(to right, red,blue); */
+    /* background-image: linear-gradient(to right, pink, blue); */
+}
+
+.modal-body{
+    background-color: rgb(134, 224, 220);
+}
+
+.modal-footer{
+    background-color: rgb(247, 247, 170);
+}
+
+#set-buttons {
+    margin: 50px;
+    padding: 10px;
+    /* border-color: crimson; 
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;*/
+}
+
+#em{
+    font-size: 26px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtfld{
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: dotted;
+    align-content: stretch;
+    padding: 7px;
+}
+
+.atFoot{
+    position: bottom;
+    text-align: center;
+    color: #ffffff;
+    /* margin-bottom: 0px; */
+    width:100%;
+    background:#000;
+    margin-top: 34vh;
+    /* margin-bottom: 0px; */
+    /* margin-top: auto; */
+    /* position:absolute;  */
+    /* margin-top: -200px; */
+    /* bottom: 0; */
+    /* bottom: 100vw; */
+     /* max-height: calc(100vh - 95px);   */
+    /* height:60px;   Height of the footer */
+    /* position: relative; */
+}
+
+.containeree {
+    width: auto;
+    /* max-width: 680px; */
+    padding: 0 15px;
+  }
