@@ -7,7 +7,7 @@
 body, html{
     /*height: 100%;*/
     text-align: center;
-    background: url(a.jpg) center center/cover;
+    background: url("//unsplash.it/1600/900") center center/cover;
     /* background-image: linear-gradient(to bottom right,red,orange,yellow,green,blue,indigo,violet); */
     background-repeat: no-repeat;
     background-size: 100%;
